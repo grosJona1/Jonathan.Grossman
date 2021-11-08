@@ -1,0 +1,21 @@
+*{
+
+font-size: 25px;
+
+}
+    
+body{
+background-color: bisque;
+backface-visibility: visible;
+
+}
+#a{
+    color: blueviolet;
+}
+
+.CL{
+    color: coral;
+}
+input{
+    color: darkblue;
+}
