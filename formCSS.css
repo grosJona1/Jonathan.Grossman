@@ -1,0 +1,32 @@
+label{
+color: blue;
+padding: 10px;
+margin: 10px;
+border: 2px solid black;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#font{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(36, 155, 145);
+    padding: 10px;
+    margin: 10px;
+}
+
+.buxa{
+    color: brown;
+}
+a{
+    color: rgb(94, 94, 34);
+}
+#font_Lable{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(25, 53, 51);
+    padding: 10px;
+    margin: 10px;
+}

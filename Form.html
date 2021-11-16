@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="C:\Users\User\GitHub\Jonathan.Grossman\styles.css">
+    <link rel="stylesheet" href="formCSS.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
 <body>
-    <h1>Registration Form</h1>
+    <h1 id="font">Registration Form</h1>
     <form action="Form.html" method="get">
-        <div> <label>Name</label>
-              <input>
+        <div> <label id="font_Lable">Name</label>
+              <input type="text" name="name" id="font">
         </div>
-        <div> <label>Password</label>
-            <input type="password" name="password">
+        <div> <label id="font_Lable">Password</label>
+            <input type="password" name="password" id="font"><br>
         </div>
-        <div> <label>Email</label>
-            <input type="email" name="email">
+        <div> <label id="font_Lable">Email</label>
+            <input type="email" name="email" id="font"><br>
         </div>
-        <div> <label>Date of Birth</label>
-            <input type="date" name="date">
+        <div> <label id="font_Lable">Date of Birth</label>
+            <input type="date" name="date" id="font"><br>
         </div>
-        <div>
-            Gender
+        <div id="font_Lable">
+            Gender<br><br>
         </div>
-        <div> <label>Male</label>
-            <input type="radio" name="Gender" id="male">
-            <label>Female</label>
-            <input type="radio" name="Female" id="Female">
+        <div> <label id="font_Lable">Male</label>
+            <input type="radio" name="Gender" id="male" id="font">
+            <label id="font_Lable">Female</label>
+            <input type="radio" name="Female" id="Female" id="font"><br><br>
         </div>
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
     </form>
+    <a href="exercise2.html">Next Page</a> 
 </body>
 </html>
