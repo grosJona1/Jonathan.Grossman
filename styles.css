@@ -4,15 +4,13 @@ font-size: 25px;
 
 }
     
-body{
-background-color: bisque;
-backface-visibility: visible;
+.Contact_Me { 
+    background-color: rgba(201, 76, 76, 0.3);
+    border-right: solid black;
+    
+  }
 
-}
-#a{
-    color: blueviolet;
-}
-
+ 
 .CL{
     color: coral;
 }

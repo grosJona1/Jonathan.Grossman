@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="C:\Users\User\GitHub\Jonathan.Grossman\CV.css">
+    <link rel="stylesheet" href="CV.css"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,20 +20,20 @@
             <label for="email">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
             <input id="email" name="email" type="email"><br><br>
             <label for="Phone">Phone&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-            <input id="PhoneNum" type="text" required pattern="[0-9]{10}"><br><br>
+            <input id="Phone" type="text" required pattern="[0-9]{10}"><br><br>
         </ul>
         </ul>
     <ul>
-        <button OK_Button= "Function()">Send</button>
+        <button onclick="myFunction()">Send</button>
         <p id="Notice">Please make sure the phone number and email are listed correctly</p>
         <p id="Send"></p>
         <script>
-        function Function() {
-        const inpObj = document.getElementById("PhoneNum");
+        function myFunction() {
+        const inpObj = document.getElementById("Phone");
         if (!inpObj.checkValidity()) {
         document.getElementById("Send").innerHTML = inpObj.validationMessage;
         } else {
-        document.getElementById("Send").innerHTML = "Input OK";
+        document.getElementById("Send").innerHTML = "Thank You, we will be in touch";
         }
         }
         </script>
